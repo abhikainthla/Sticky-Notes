@@ -1,0 +1,85 @@
+.main{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.note-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    width: 80%;
+}
+textarea{
+    box-shadow: 4px 4px 10px 0px #803636;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 10px;
+}
+.ls{
+    background-color: #d1dce7;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.button{
+    position: relative;
+    right: 150px;
+    font-size: 16px;
+    box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+    background-image: linear-gradient(
+        to right,
+        #ed6ea0,
+        #ec8c69,
+        #f7186a,
+        #fbb03b
+      );
+      border: none;
+      width: 160px;
+      color: #fff;
+      cursor: pointer;
+      height: 55px;
+      text-align: center;
+      background-size: 300% 100%;
+      border-radius: 50px;
+}
+
+.rs{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: start;
+    justify-content: start;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.rs h1{
+    width: 100%;
+    text-align: center;
+}
+.rs span{
+    width: 100%;
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+}
+
+#notes-section{
+    display: flex;
+    flex-wrap: wrap;
+}
