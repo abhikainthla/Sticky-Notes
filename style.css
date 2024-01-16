@@ -1,7 +1,10 @@
+body {
+    font-family: sans-serif;
+}
 .main{
     display: flex;
     width: 100%;
-    height: 100vh;
+    height: 100vh;    
 }
 *{
     box-sizing: border-box;
@@ -55,7 +58,7 @@ textarea{
 
 .rs{
     width: 50%;
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -63,7 +66,7 @@ textarea{
     align-items: start;
     justify-content: start;
     overflow-y: scroll;
-    overflow-x: hidden;
+
 }
 .rs h1{
     width: 100%;
@@ -82,4 +85,6 @@ textarea{
 #notes-section{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }

@@ -12,8 +12,8 @@ btn.addEventListener('click', ()=>{
         return;
     }
     const card = document.createElement("div");
-    card.style.minWidth = "150px";
-    card.style.minHeight = "150px";
+    card.style.minWidth = "130px";
+    card.style.minHeight = "130px";
     card.style.backgroundColor = inputColor;
     card.style.margin ="10px";
 
@@ -51,8 +51,15 @@ btn.addEventListener('click', ()=>{
     remove.onclick= function(){
         card.parentNode.removeChild(card);
     }
+//-------------------------- to edit text--------------------------
+    para.addEventListener('click', () => {
+        text.value = para.innerText;
+    })
+
 
     document.getElementById("notes-section").appendChild(card);
 
     text.value = "";
+
+
 })
