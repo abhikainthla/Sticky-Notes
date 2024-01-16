@@ -12,10 +12,12 @@ btn.addEventListener('click', ()=>{
         return;
     }
     const card = document.createElement("div");
+    card.setAttribute('class', 'card');
     card.style.minWidth = "130px";
     card.style.minHeight = "130px";
     card.style.backgroundColor = inputColor;
     card.style.margin ="10px";
+    card.style.padding ="5px";
 
     
 

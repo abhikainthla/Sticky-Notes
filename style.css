@@ -56,16 +56,24 @@ textarea{
       border-radius: 50px;
 }
 
+.button:hover{
+    font-weight: bold;
+    border: 2px solid #fbb03b;
+    
+}
+
 .rs{
     width: 50%;
-    height: auto;
+    height: 100%;
     display: flex;
+    padding: 10px;
     flex-direction: column;
     flex-wrap: wrap;
     gap: 20px;
     align-items: start;
     justify-content: start;
     overflow-y: scroll;
+    overflow-x: scroll;
 
 }
 .rs h1{
@@ -87,4 +95,12 @@ textarea{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    transition: all 0.5s;
+
 }
+
+
+#notes-section :hover{
+    transform: scale(1.05);
+}
+
