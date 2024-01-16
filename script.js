@@ -43,6 +43,8 @@ btn.addEventListener('click', ()=>{
     remove.style.top = "-5px"
     remove.style.color ="white";
     remove.style.cursor="pointer";
+    remove.style.marginLeft ="5px";
+
 
 
     const noNotes = document.querySelector("span");
